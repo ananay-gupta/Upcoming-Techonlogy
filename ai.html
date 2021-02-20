@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+  Artificial Intelligence
+  </title>
+  <link rel="icon" href="icon_ai.jpg" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <div id="top"></div>
+  <div class="nalla">
+    <div class="dalla">
+        <h>ARTIFICIAL INTELLIGENCE</h>
+    </div>
+</div>
+
+
+<div class="navbar" id="myNavbar">
+    <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a> 
+    <a href="ai.html"> Artificial Intelligence </a> 
+    <a href="ml.html"> Machine Learning </a> 
+    <a href="r.html"> Robotics </a>
+    <a href="iot.html"> IoT </a>
+    
+    <div class="dropdown">
+      <a class="dropbtn">Embedded Systems
+        <i class="fa fa-caret-down"></i>
+      </a>
+      <div class="dropdown-content">
+        <a href="arduino.html">Arduino</a>
+        <a href="https://www.raspberrypi.org/">Raspberry Pi</a>
+        <a href="https://en.wikipedia.org/wiki/Embedded_system">Other Embedded Systems</a>
+      </div>
+    </div> 
+    
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <a onclick="myFunction1(this)" style="right: 0;position: absolute;" > Dark Mode </a>
+
+
+
+  </div>
+    </div>
+        <div class="textfor">
+          <br>
+          <img src="AI1.jpeg" width="35%"  style="float:left;margin-left:0;top: 0; padding-right: 15px;padding-top: 15px;" >
+          <P>
+            Artificial intelligence (AI), is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals, which involves consciousness and emotionality. The distinction between the former and the latter categories is often revealed by the acronym chosen. 'Strong' AI is usually labelled as AGI (Artificial General Intelligence) while attempts to emulate 'natural' intelligence have been called ABI (Artificial Biological Intelligence).
+          
+          </P>
+          <img src="AI2.jpg"  width="45%" style="float:right;margin-right:0;top: 0;padding: 10px;">
+          <p>
+              <br>
+              Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals. Colloquially, the term "artificial intelligence" is often used to describe machines (or computers) that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving". As machines become increasingly capable, tasks considered to require "intelligence" are often removed from the definition of AI, a phenomenon known as the AI effect. A quip in Tesler's Theorem says "AI is whatever hasn't been done yet."For instance, optical character recognition is frequently excluded from things considered to be AI, having become a routine technology.Modern machine capabilities generally classified as AI include successfully understanding human speech, competing at the highest level in strategic game systems (such as chess and Go), autonomously operating cars, intelligent routing in content delivery networks, and military simulations.
+
+Artificial intelligence was founded as an academic discipline in float55, and in the years since has experienced several waves of optimism, followed by disappointment and the loss of funding (known as an "AI winter"), followed by new approaches, success and renewed funding. After AlphaGo successfully defeated a professional Go player in 2015, artificial intelligence once again attracted widespread global attention. For most of its history, AI research has been divided into sub-fields that often fail to communicate with each other. These sub-fields are based on technical considerations, such as particular goals (e.g. "robotics" or "machine learning"), the use of particular tools ("logic" or artificial neural networks), or deep philosophical differences.Sub-fields have also been based on social factors (particular institutions or the work of particular researchers).
+              <img src="AI3.jpg"  width="45%" style="float:left;margin-right:0;top: 0;padding: 10px;">
+  Supervised learning: The computer is presented with example inputs and their desired outputs, given by a "teacher", and the goal is to learn a general rule that maps inputs to outputs.
+  Unsupervised learning: No labels are given to the learning algorithm, leaving it on its own to find structure in its input. Unsupervised learning can be a goal in itself (discovering hidden patterns in data) or a means towards an end (feature learning).
+  Reinforcement learning: A computer program interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). 
+  <br>
+  <br>
+  <img src="A14.jpg"  width="45%" style="float:right;margin-right:0;top: 0;padding: 10px;">
+  As it navigates its problem space, the program is provided feedback that's analogous to rewards, which it tries to maximize.
+  Other approaches have been developed which don't fit neatly into this three-fold categorisation, and sometimes more than one is used by the same machine learning system. For example topic modeling, dimensionality reduction or meta learning.
+  
+  The traditional problems (or goals) of AI research include reasoning, knowledge representation, planning, learning, natural language processing, perception and the ability to move and manipulate objects.General intelligence is among the field's long-term goals. Approaches include statistical methods, computational intelligence, and traditional symbolic AI. Many tools are used in AI, including versions of search and mathematical optimization, artificial neural networks, and methods based on statistics, probability and economics. The AI field draws upon computer science, information engineering, mathematics, psychology, linguistics, philosophy, and many other fields.
+
+The field was founded on the assumption that human intelligence "can be so precisely described that a machine can be made to simulate it". This raises philosophical arguments about the mind and the ethics of creating artificial beings endowed with human-like intelligence. These issues have been explored by myth, fiction and philosophy since antiquity. Some people also consider AI to be a danger to humanity if it progresses unabated. Others believe that AI, unlike previous technological revolutions, will create a risk of mass unemployment.
+
+In the twenty-first century, AI techniques have experienced a resurgence following concurrent advances in computer power, large amounts of data, and theoretical understanding; and AI techniques have become an essential part of the technology industry, helping to solve many challenging problems in computer science, software engineering and operations research
+  <br>
+  <br>
+  For Further Information 
+  <a href="https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp#:~:text=Artificial%20intelligence%20(AI)%20refers%20to,as%20learning%20and%20problem%2Dsolving.">Please Visit  </a>
+  
+  the article by Investopedia
+  
+          </p>
+        </div>
+
+
+</body>
+</html>
+<script>
+    var tm=0;
+  window.onscroll = function() {scrollFunction()};
+  function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-105px";
+  }
+}
+function myFunction1(id) {
+    if(tm%2==0)
+    id.innerHTML="Light Mode";
+    else
+    id.innerHTML="Dark Mode";
+    tm++;
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+  
+</script>
