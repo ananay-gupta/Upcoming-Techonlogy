@@ -1,6 +1,6 @@
 # Upcoming Techonlogies
 
-A Simple Web page which depepecting the Upcomming Technologies
+A Simple Web page which gives us a brief information about the Upcomming Technologies
 
 # Tech Used
 
